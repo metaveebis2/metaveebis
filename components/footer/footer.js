@@ -74,7 +74,7 @@ const FooterContent = `
   <div>
     <div id="footer">
     <p class="lead">
-      4. Export the project
+      Export the project
     </p>
 
     <p class="paragraph">
