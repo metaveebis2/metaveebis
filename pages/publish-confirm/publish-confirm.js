@@ -18,7 +18,7 @@ window.onload = async () => {
         return;
     }
 
-    let response = await fetch(`https://gatekeeper-arjsstudio.fly.dev/authenticate/${queryDict.code}`);
+    let response = await fetch(`https://gatekeeper-av30.onrender.com/authenticate/${queryDict.code}`);
     response = await response.json();
 
     const package = new Package(window.session);
