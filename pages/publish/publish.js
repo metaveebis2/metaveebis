@@ -1,4 +1,4 @@
-const GITHUB_CLIENT_ID = '284c2ed8c719c8520bd1';
+const GITHUB_CLIENT_ID = '52be21e45004f87ec2f0';
 
 // TODO: Replace darr with an icon.
 const previewImageTemplate = (fileURL) =>
