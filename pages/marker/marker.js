@@ -53,18 +53,22 @@ const enablePageFooter = (enable) => {
 }
 
 const prepareButtons = () => {
-    const buttons = [];
-    [1,2,3].forEach((i) => {
-        const text = document.querySelector(`input[name='text${i}']`).value;
-        const url = document.querySelector(`input[name='url${i}']`).value;
-        const position = document.querySelector(`[name='position${i}']`).value;
+    // TODO
 
-        if (url) {
-            buttons.push({ text, url, position });
-        }
-    });
+    // const buttons = [];
+    // [1,2,3].forEach((i) => {
+    //     const text = document.querySelector(`input[name='text${i}']`).value;
+    //     const url = document.querySelector(`input[name='url${i}']`).value;
+    //     const position = document.querySelector(`[name='position${i}']`).value;
 
-    return buttons;
+    //     if (url) {
+    //         buttons.push({ text, url, position });
+    //     }
+    // });
+
+    // return buttons;
+
+    return [];
 };
 
 const zip = () => {
